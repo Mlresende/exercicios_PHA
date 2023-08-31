@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230812 12:01:51.336" rpa="false" schemaversion="4">
+<suite id="s1" name="ExercicioPHA" source="C:\Users\admin\Robot\Robot aprendizado\Exercicio PHA\ExercicioPHA.robot">
+<test id="s1-t1" name="Exibir Dicionario no Console" line="55">
+<kw name="Exibir nome, idade, rua, numero, cep, bairro, cidade e estado no console a partir de um dicionário.">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.368" endtime="20230812 12:01:51.368"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOA.nome}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.368" endtime="20230812 12:01:51.368"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOA.idade}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.368" endtime="20230812 12:01:51.372"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOA.rua}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.372" endtime="20230812 12:01:51.372"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOA.numero}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.372" endtime="20230812 12:01:51.372"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${pessoa.cep}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.372" endtime="20230812 12:01:51.372"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${pessoa.bairro}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.372" endtime="20230812 12:01:51.372"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${pessoa.cidade}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.372" endtime="20230812 12:01:51.372"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${pessoa.estado}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.372" endtime="20230812 12:01:51.376"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.376" endtime="20230812 12:01:51.376"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.368" endtime="20230812 12:01:51.376"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.368" endtime="20230812 12:01:51.376"/>
+</test>
+<test id="s1-t2" name="Exibir lista de Frutas adicionadas." line="58">
+<kw name="Exiba cada uma das frutas de uma lista usando um For Simples">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.376" endtime="20230812 12:01:51.380"/>
+</kw>
+<for flavor="IN">
+<var>${ELEMENTOS}</var>
+<value>@{Frutas}</value>
+<iter>
+<var name="${ELEMENTOS}">Laranja</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${ELEMENTOS}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</iter>
+<iter>
+<var name="${ELEMENTOS}">Maça</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${ELEMENTOS}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</iter>
+<iter>
+<var name="${ELEMENTOS}">Uva</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${ELEMENTOS}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</iter>
+<iter>
+<var name="${ELEMENTOS}">Goiaba</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${ELEMENTOS}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</iter>
+<iter>
+<var name="${ELEMENTOS}">Tomate</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${ELEMENTOS}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</iter>
+<iter>
+<var name="${ELEMENTOS}">Kiwi</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${ELEMENTOS}</arg>
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</iter>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.380"/>
+</for>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.380" endtime="20230812 12:01:51.384"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.376" endtime="20230812 12:01:51.384"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.376" endtime="20230812 12:01:51.384"/>
+</test>
+<test id="s1-t3" name="Exibir Argumentos de retorno + if simples" line="61">
+<kw name="O usuário tem 20 anos, exibir o ano de nascimento ou se o usuario nasceu no século passado." sourcename="O usuário tem ${IDADE} anos, exibir o ano de nascimento ou se o usuario nasceu no século passado.">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.384" endtime="20230812 12:01:51.384"/>
+</kw>
+<kw name="Get Current Date" library="DateTime">
+<var>${ANO}</var>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<msg timestamp="20230812 12:01:51.384" level="INFO">${ANO} = 2023-08-12 12:01:51.384</msg>
+<status status="PASS" starttime="20230812 12:01:51.384" endtime="20230812 12:01:51.384"/>
+</kw>
+<kw name="Subtract Date From Date" library="DateTime">
+<var>${RESULTADO}</var>
+<arg>${ANO}</arg>
+<arg>${IDADE}</arg>
+<arg>years</arg>
+<doc>Subtracts date from another date and returns time between.</doc>
+<msg timestamp="20230812 12:01:51.388" level="FAIL">ValueError: Invalid timestamp '20'.</msg>
+<status status="FAIL" starttime="20230812 12:01:51.384" endtime="20230812 12:01:51.388"/>
+</kw>
+<if>
+<branch type="IF" condition="${RESULTADO} &gt;= 2000">
+<kw name="Log To Console" library="BuiltIn">
+<arg>O ano de nascimento do Usuário é: ${RESULTADO}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.388" endtime="20230812 12:01:51.388"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.388" endtime="20230812 12:01:51.388"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>O usuário nasceu no século passado.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.388" endtime="20230812 12:01:51.388"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.388" endtime="20230812 12:01:51.388"/>
+</branch>
+<status status="NOT RUN" starttime="20230812 12:01:51.388" endtime="20230812 12:01:51.388"/>
+</if>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.388" endtime="20230812 12:01:51.388"/>
+</kw>
+<status status="FAIL" starttime="20230812 12:01:51.384" endtime="20230812 12:01:51.388"/>
+</kw>
+<status status="FAIL" starttime="20230812 12:01:51.384" endtime="20230812 12:01:51.388">ValueError: Invalid timestamp '20'.</status>
+</test>
+<test id="s1-t4" name="Exercício If Inline + For in Range" line="64">
+<kw name="Crie um loop que conte quantos números par existem entre 0 e 10, usando if inline">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>0</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.392" level="INFO">${Contador} = 0</msg>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</kw>
+<for flavor="IN RANGE">
+<var>${indice}</var>
+<value>0</value>
+<value>11</value>
+<iter>
+<var name="${indice}">0</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.392" level="INFO">${Contador} = 1</msg>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</iter>
+<iter>
+<var name="${indice}">1</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.392" level="INFO">${Contador} = 1</msg>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.392"/>
+</iter>
+<iter>
+<var name="${indice}">2</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.396" level="INFO">${Contador} = 2</msg>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.396"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.396"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.396"/>
+</iter>
+<iter>
+<var name="${indice}">3</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.396" level="INFO">${Contador} = 2</msg>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</iter>
+<iter>
+<var name="${indice}">4</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.396" level="INFO">${Contador} = 3</msg>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</iter>
+<iter>
+<var name="${indice}">5</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.396" level="INFO">${Contador} = 3</msg>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</iter>
+<iter>
+<var name="${indice}">6</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.396" level="INFO">${Contador} = 4</msg>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</iter>
+<iter>
+<var name="${indice}">7</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.396" level="INFO">${Contador} = 4</msg>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</iter>
+<iter>
+<var name="${indice}">8</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.396" level="INFO">${Contador} = 5</msg>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</iter>
+<iter>
+<var name="${indice}">9</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.396" level="INFO">${Contador} = 5</msg>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.396"/>
+</iter>
+<iter>
+<var name="${indice}">10</var>
+<if>
+<branch type="IF" condition="${indice} % 2 == 0">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${{ ${Contador} + 1}}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230812 12:01:51.400" level="INFO">${Contador} = 6</msg>
+<status status="PASS" starttime="20230812 12:01:51.400" endtime="20230812 12:01:51.400"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.400"/>
+</branch>
+<branch type="ELSE">
+<kw name="Set Variable" library="BuiltIn">
+<var>${Contador}</var>
+<arg>${Contador}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230812 12:01:51.400" endtime="20230812 12:01:51.400"/>
+</kw>
+<status status="NOT RUN" starttime="20230812 12:01:51.400" endtime="20230812 12:01:51.400"/>
+</branch>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.400"/>
+</if>
+<status status="PASS" starttime="20230812 12:01:51.396" endtime="20230812 12:01:51.400"/>
+</iter>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.400"/>
+</for>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Existem ${Contador} números pares.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.400" endtime="20230812 12:01:51.400"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230812 12:01:51.400" endtime="20230812 12:01:51.400"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.400"/>
+</kw>
+<status status="PASS" starttime="20230812 12:01:51.392" endtime="20230812 12:01:51.400"/>
+</test>
+<status status="FAIL" starttime="20230812 12:01:51.336" endtime="20230812 12:01:51.400"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="1" skip="0" id="s1" name="ExercicioPHA">ExercicioPHA</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
